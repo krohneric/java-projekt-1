@@ -52,6 +52,9 @@ body.wrong {
    margin: 20px 0;
 }
 
-
+.btn{
+ --hue: var(--hue-neutral);
+ background-color: hsl (var())
+}
 
 
