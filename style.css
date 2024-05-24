@@ -30,7 +30,10 @@ body.correct{
 
 }
 
+body.wrong {
+  --hue: var(--hue-wrong);
 
+}
 
 
 
