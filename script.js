@@ -1,5 +1,8 @@
 const startButton = documnet.getElementById('start-btn')
+const nextButton = document.getElementById('next-btn')
+
 const questionContainerElement = document.getElementById
+
 ('question-container')
 
 const questionElement = documnet.getElementById('question')
@@ -39,7 +42,10 @@ function setNextQuestion() {
 }
 
 function selectAnswer(){
-
+const selectedButton = e.target
+const correct = selectedButton.dataset.correct
+setStatusClass(documnet.body, correct)
+Array.from(answerButtonsElement.children)
 }
 
 
