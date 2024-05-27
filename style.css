@@ -82,5 +82,13 @@ border-color: blue;
   padding: 10px 7px;
 }
 
+.controls {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+
+}
+
 
 
