@@ -5,7 +5,7 @@ const questionContainerElement = document.getElementById
 const questionElement = documnet.getElementById('question')
 const answerButtonsElement = documnet.getElementById('answer-buttons')
 
-const shuffledQuestions, currentQuestionIndex
+let shuffledQuestions, currentQuestionIndex
 
 
 startButton.addEventListner('click', startGame)
@@ -41,7 +41,7 @@ questionElement.innerText = question.question
 
 const questions =[
    {
-    question: 'What is 2 + 2',
+    question: 'what s the name of swedish king',
     answers:[
         {text: '4', correct:true}
         {text:'22', correct: false}   
