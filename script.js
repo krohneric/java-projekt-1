@@ -12,6 +12,8 @@ startButton.addEventListner('click', startGame)
 function startGame() {
  console.log('Started')
  startButton.classList.add('hide') kolla denna sen
+ shuffledQuestions = questions.sort(() => Math.random() - .5)
+ currentQuestionIndex = 0
  questionContainerElement.classList.remove('hide')
  setNextQuestion()
 }
@@ -20,12 +22,16 @@ function startGame() {
 
 
 function setNextQuestion() {
-
+showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
 function selectAnswer(){
 
 }
+
+
+function showQuestion()
+
 
 
 const questions =[
