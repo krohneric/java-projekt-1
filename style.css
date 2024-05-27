@@ -72,7 +72,7 @@ border-color: blue;
 }
 
 .btn.wrong {
---hue: var(--hue-correct)
+--hue: var(--hue-wrong)
 }
 
 
