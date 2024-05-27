@@ -100,13 +100,20 @@ const questions = [
       { text: "indien food", correct: false },
     ]
   },
+  {
+    question: "what is tooth called in swedish?",
+    answers: [
+      { text: "tooth", correct: false },
+      { text: "hammas", correct: false },
+      { text: "tand", correct: true },
+      { text: "zahn", correct: false },
+    ]
+  },
 
+  
 
-
-
-
-
-
+  
+ 
 ];
 
 
