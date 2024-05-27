@@ -1,4 +1,3 @@
-
 lang = "en"
 const startButton = document.getElementById('start-btn');
 const nextButton = document.getElementById('next-btn');
@@ -46,7 +45,7 @@ function selectAnswer(e) {
   });
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide');
-  }
+  } 
 }
 
 function setStatusClass(element, correct) {
@@ -118,8 +117,6 @@ const questions = [
   
  
 ];
-
-
 
  
  
