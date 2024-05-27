@@ -22,7 +22,12 @@ function startGame() {
 }
 
 function resetState(){
-  nextButton.classList  
+  nextButton.classList.add ('hide') 
+  while (answerButtonsElement.firstChild){
+   answerButtonsElement.removeChild
+   (answerButtonsElement.firstChild)
+  
+}
 }
 
 
