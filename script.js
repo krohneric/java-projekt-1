@@ -10,6 +10,13 @@ const answerButtonsElement = documnet.getElementById('answer-buttons')
 
 let shuffledQuestions, currentQuestionIndex
 
+startButton.addEventListener('click',startgame)
+nextButton.addEventListener('click',() => {
+currentQuestionIndex++
+setNextQuestion()
+})
+
+
 
 startButton.addEventListner('click', startGame)
 
@@ -47,11 +54,13 @@ const correct = selectedButton.dataset.correct
 setStatusClass(documnet.body, correct)
 Array.from(answerButtonsElement.children).forEach(button =>{
  setStatusClass (button, button.dataset.correct)
+if (shuffledQuestions.length> currentQuestionIndex + 1)
 
 })
 
 }
 
+nextButton.classList.remove('hide')
 
 function setStatusClass(element, correct){
   clearStatusClass(element)
