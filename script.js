@@ -85,19 +85,6 @@ const questions = [
 ];
 
 
-const questions = [
-  {
-    question: "what is my favorite band?",
-    answers: [
-      { text: "black stone cherry", correct: true },
-      { text: "hailstrom", correct: false }
-    ]
-  }
-];
-
-
-
-
 
 
 
