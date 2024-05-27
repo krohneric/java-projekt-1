@@ -3,7 +3,7 @@ const questionContainerElement = document.getElementById
 ('question-container')
 
 const questionElement = documnet.getElementById('question')
-const answerButtonsElement = documnet.getElementById('answer')
+const answerButtonsElement = documnet.getElementById('answer-buttons')
 
 const shuffledQuestions, currentQuestionIndex
 
@@ -34,7 +34,7 @@ function selectAnswer(){
 
 
 function showQuestion(question){
-
+questionElement.innerText = question.question
 }
 
 
