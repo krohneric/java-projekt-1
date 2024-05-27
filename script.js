@@ -2,6 +2,9 @@ const startButton = documnet.getElementById('start-btn')
 const questionContainerElement = document.getElementById
 ('question-container')
 
+const shuffledQuestions, currentQuestionIndex
+
+
 startButton.addEventListner('click', startGame)
 
 
