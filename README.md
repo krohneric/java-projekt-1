@@ -11,6 +11,18 @@
 4. The background color of the buttons will indicate whether tthe selected answer is correct.
 
 
+### License
+This project is licensed and good
+
+## Contact
+
+###Your name eric kron
+### Email: krohneric@live.se
+### Github https://friendly-broccoli-x5rx4x569g57hr44-8000.app.github.dev/
+
+
+
+
 
 
 
