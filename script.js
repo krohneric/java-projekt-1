@@ -21,11 +21,16 @@ function startGame() {
  setNextQuestion()
 }
 
+function resetState(){
+  nextButton.classList  
+}
+
 
 
 
 function setNextQuestion() {
-showQuestion(shuffledQuestions[currentQuestionIndex])
+ resetState()
+    showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
 function selectAnswer(){
@@ -39,8 +44,12 @@ question.answers.forEach(answer =>
     const button = document.createElement('button')
     button.innerText = answer.text
     button.classList.add('btn')
-
-){
+    if(answer.correct){
+       button.dataset.correct  = answer.correct
+    }
+       button.addEventListener('click', selectAnswer)
+       answerButtonsElement.appendChild(button)
+    ){
 
 }
 
