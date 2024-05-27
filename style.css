@@ -1,10 +1,10 @@
 *, * ::before,  *::after {
   box-sizing: border-box;  
-  font-family: italic;
+  font-family: 'italic';
 }
 
 :root{
-  --hue-neutral: 200
+  --hue-neutral: 200;
   --hue-wrong: 0;
   --hue-correct: 145;
 }
@@ -73,7 +73,7 @@ border-color: black;
 }
 
 .btn.wrong {
---hue: var(--hue-wrong)
+--hue: var(--hue-wrong);
 }
 
 .start-btn, .next-btn{
