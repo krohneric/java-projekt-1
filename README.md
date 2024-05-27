@@ -20,6 +20,11 @@ This project is licensed and good
 ### Email: krohneric@live.se
 ### Github https://friendly-broccoli-x5rx4x569g57hr44-8000.app.github.dev/
 
+###Below this code javascript wanna give mutch credit too 
+###Web Dev Simplified
+###here is the link :https://www.youtube.com/watch?v=riDzcEQbX6k
+
+
 
 
 
