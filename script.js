@@ -81,11 +81,41 @@ const questions = [
       { text: "Carl XVI Gustaf", correct: true },
       { text: "Gustaf IV Adolf", correct: false }
     ]
-  }
+  },
+  {
+    question: "with band dave growl play in?",
+    answers: [
+      { text: "black stone cherry", correct: false },
+      { text: "pantera", correct: false },
+      { text: "foo fighters", correct: true },
+      { text: "papa roach", correct: false },
+    ]
+  },
+  {
+    question: "whith food i like?",
+    answers: [
+      { text: "pasta", correct: false },
+      { text: "thai food", correct: false },
+      { text: "hamburger", correct: true },
+      { text: "indien food", correct: false },
+    ]
+  },
+
+
+
+
+
+
+
 ];
 
 
 
+ 
+ 
+
+
+  
 
 
 
@@ -105,6 +135,14 @@ const questions = [
 
 
 
+
+
+
+
+
+
+
+  
 
 
 
