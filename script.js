@@ -2,6 +2,9 @@ const startButton = documnet.getElementById('start-btn')
 const questionContainerElement = document.getElementById
 ('question-container')
 
+const questionElement = documnet.getElementById('question')
+const answerButtonsElement = documnet.getElementById('answer')
+
 const shuffledQuestions, currentQuestionIndex
 
 
@@ -30,7 +33,9 @@ function selectAnswer(){
 }
 
 
-function showQuestion()
+function showQuestion(question){
+
+}
 
 
 
