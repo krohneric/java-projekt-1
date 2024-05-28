@@ -52,7 +52,7 @@ then after you chose a answer after you and click you can move on to the next
 ### And wanna give credit too Dev Simplified for that mall i can use but make buy my own here is the link to hit
 ###  https://www.youtube.com/watch?v=riDzcEQbX6k
 
-THEME-NAME eric kron
+
 
 
 
