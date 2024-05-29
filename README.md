@@ -49,7 +49,7 @@ then after you chose a answer after you and click you can move on to the next
 #### if you look at the last picture on my javascript. it says error but I  have try to fix it.  There otherwise html and css have become very good and in good shapeave tried to correct that problem in the console. But it happens nothing it was the only little PROBLEM
 
 ### And wanna give credit too Dev Simplified for that mall i can use but make buy my own here is the link to hit
-###  https://www.youtube.com/watch?v=riDzcEQbX6k
+
 
 
 
